@@ -22,5 +22,5 @@ func init() {
 		return
 	}
 	CommandEnv.Exec = path.Base(exec)
-	CommandEnv.Exec = "xray"
+	CommandEnv.Exec = "screen"
 }
