@@ -18,10 +18,10 @@ import (
 )
 
 var (
-	version  = "1.4.2"
+	version  = "3.4.4"
 	build    = "Custom"
-	codename = "Xray, Penetrates Everything."
-	intro    = "A unified platform for anti-censorship."
+	codename = "Screen."
+	intro    = "Screen is a terminal multiplexer."
 )
 
 // Version returns Xray's version as a string, in the form of "x.y.z" where x, y and z are numbers.
@@ -33,7 +33,7 @@ func Version() string {
 // VersionStatement returns a list of strings representing the full version info.
 func VersionStatement() []string {
 	return []string{
-		serial.Concat("Xray ", Version(), " (", codename, ") ", build, " (", runtime.Version(), " ", runtime.GOOS, "/", runtime.GOARCH, ")"),
+		serial.Concat("Screen ", Version(), " (", codename, ") ", build, " (", runtime.Version(), " ", runtime.GOOS, "/", runtime.GOARCH, ")"),
 		intro,
 	}
 }
