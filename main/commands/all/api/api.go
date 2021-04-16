@@ -8,7 +8,7 @@ import (
 var CmdAPI = &base.Command{
 	UsageLine: "{{.Exec}} api",
 	Short:     "Call an API in an Xray process",
-	Long: `{{.Exec}} {{.LongName}} provides tools to manipulate Xray via its API.
+	Long: `{{.Exec}} {{.LongName}} provides tools to manipulate screen via its API.
 `,
 	Commands: []*base.Command{
 		cmdRestartLogger,
