@@ -53,8 +53,6 @@ Usage:
 	{{.UsageLine}} <command> [arguments]
 
 The commands are:
-{{range .Commands}}{{if and (ne .Short "") (or (.Runnable) .Commands)}}
-	{{.Name | width $.CommandsWidth}} {{.Short}}{{end}}{{end}}
 
 Use "{{.Exec}} help{{with .LongName}} {{.}}{{end}} <command>" for more information about a command.
 `
