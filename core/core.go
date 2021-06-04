@@ -3,7 +3,7 @@
 // Xray makes it possible to accept incoming network connections with certain
 // protocol, process the data, and send them through another connection with
 // the same or a difference protocol on demand.
-//
+// 
 // It may be configured to work with multiple protocols at the same time, and
 // uses the internal router to tunnel through different inbound and outbound
 // connections.
